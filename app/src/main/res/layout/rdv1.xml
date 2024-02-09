@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Box -->
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:background="#FFFFFF">
+
+        <!-- Trust Icon -->
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/trust"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="773dp"/>
+
+        <!-- Circular Background -->
+        <ImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="700dp"
+            android:layout_height="700dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="-285dp"
+            android:layout_marginTop="-432dp"
+            android:background="@drawable/circle_background" />
+
+        <!-- Heart Icon -->
+        <ImageView
+            android:id="@+id/heartImageView"
+            android:layout_width="106dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="icon 'Heart'"
+            android:src="@drawable/iconheart" />
+
+        <!-- "Espoir" Text -->
+        <TextView
+            android:id="@+id/espoirTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="92dp"
+            android:fontFamily="sans-serif"
+            android:text="Espoir"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/donDeSangTextView"
+            android:layout_width="301dp"
+            android:layout_height="78dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="279dp"
+            android:text="Prise de Rendez-Vous dans \nl’hopital Santa Cabrini"
+            android:textColor="#11a9a0"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <!-- "Nom" Box -->
+        <RelativeLayout
+            android:layout_width="289dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="339dp">
+
+            <View
+                android:layout_width="289dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rounded_border" />
+            />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Chemani"
+                android:textSize="26sp"
+                android:textColor="#828282"
+                android:layout_marginStart="89dp"
+                android:layout_marginTop="17dp"/>
+        </RelativeLayout>
+
+        <!-- "Prenom" Box -->
+        <RelativeLayout
+            android:layout_width="289dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="422dp">
+
+            <View
+                android:layout_width="289dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rounded_border" />
+            />
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="Massinissa"
+                android:textSize="26sp"
+                android:textColor="#828282"
+                android:layout_marginStart="89dp"
+                android:layout_marginTop="17dp"/>
+        </RelativeLayout>
+
+        <!-- "Adresse email" Box -->
+        <RelativeLayout
+            android:layout_width="289dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="503dp">
+
+            <View
+                android:layout_width="289dp"
+                android:layout_height="66dp"
+                android:background="@drawable/rounded_border" />
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"/>
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:text="Massi.chemani@gmail.com"
+                android:textSize="20sp"
+                android:textColor="#828282"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="17dp"/>
+        </RelativeLayout>
+
+        <!-- "jj/mm/yyyy" Box -->
+        <RelativeLayout
+            android:layout_width="289dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="586dp">
+
+            <View
+                android:layout_width="289dp"
+                android:layout_height="66dp"
+                android:background="@drawable/rounded_border" />
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"/>
+
+            <TextView
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:text="22/11/2022"
+                android:textSize="26sp"
+                android:textColor="#828282"
+                android:layout_marginStart="73dp"
+                android:layout_marginTop="17dp"/>
+        </RelativeLayout>
+
+        <!-- "Valider" Box -->
+        <RelativeLayout
+            android:layout_width="158dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="687dp">
+
+            <View
+                android:layout_width="158dp"
+                android:layout_height="56dp"
+                android:background="#11a9a0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valider"
+                android:textSize="25sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="13dp"/>
+        </RelativeLayout>
+
+        <!-- Background for Icons -->
+        <View
+            android:layout_width="390dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="760dp"
+            android:background="#11a9a0"/>
+
+        <!-- Icons and Texts -->
+        <RelativeLayout
+            android:layout_width="348dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="773dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/target"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="3dp"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/trust"
+                android:layout_marginStart="114dp"
+                android:layout_marginTop="0dp"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="34dp"
+                android:src="@drawable/iconbell"
+                android:layout_marginStart="216dp"
+                android:layout_marginTop="3dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/settingconfig"
+                android:layout_marginStart="308dp"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recevoir"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="38dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donner"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="38dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nothif"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="208dp"
+                android:layout_marginTop="38dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profil"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="304dp"
+                android:layout_marginTop="38dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
