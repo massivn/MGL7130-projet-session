@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Background Box -->
+    <FrameLayout
+        android:id="@+id/backgroundBox"
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Map Image -->
+        <ImageView
+            android:id="@+id/mapsImageView"
+            android:layout_width="600dp"
+            android:layout_height="913dp"
+            android:layout_marginStart="-135dp"
+            android:layout_marginTop="-154dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mapsiclemap" />
+
+        <!-- Group Sang Image -->
+        <ImageView
+            android:id="@+id/groupSangImageView"
+            android:layout_width="122dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="398dp"
+            android:layout_marginTop="210dp"
+            android:src="@drawable/groupsang"
+            android:tint="#f9f8f8" />
+
+        <!-- Setting4 Image -->
+        <ImageView
+            android:id="@+id/setting4ImageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="413dp"
+            android:layout_marginTop="224dp"
+            android:src="@drawable/setting4" />
+
+        <!-- Trouver un donateur Box -->
+
+        <!-- Search Image -->
+
+        <FrameLayout
+            android:id="@+id/trouverDonateurBox"
+            android:layout_width="220dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="16dp"> <!-- Ajustez la marge pour placer le TextView en haut -->
+
+            <!-- Rectangle4 Image -->
+
+            <!-- "Trouver un donateur" Text -->
+
+            <TextView
+                android:id="@+id/trouverDonateurText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="21dp"
+                android:fontFamily="sans-serif"
+                android:text="Trouver un donateur"
+                android:textColor="#8A000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/searchImageView"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="224dp"
+            android:src="@drawable/search" />
+
+        <!-- Receive, Give, Notification, Profile Box -->
+        <FrameLayout
+            android:id="@+id/receiveGiveNotificationProfileBox"
+            android:layout_width="348dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="769dp">
+
+            <!-- Target Image -->
+            <ImageView
+                android:id="@+id/targetImageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/target" />
+
+            <!-- Trust Image -->
+            <ImageView
+                android:id="@+id/trustImageView"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="114dp"
+                android:layout_marginTop="0dp"
+                android:contentScale="inside"
+                android:src="@drawable/trust" />
+
+            <!-- Icon Bell Image -->
+            <ImageView
+                android:id="@+id/iconBellImageView"
+                android:layout_width="35dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="216dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/iconbell"
+                android:tint="#FFFFFF" />
+
+            <!-- Setting Config Image -->
+            <ImageView
+                android:id="@+id/settingConfigImageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="308dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/settingconfig" />
+
+            <!-- "Recevoir" Text -->
+            <TextView
+                android:id="@+id/recevoirText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="38dp"
+                android:text="Recevoir"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <!-- "Donner" Text -->
+            <TextView
+                android:id="@+id/donnerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="38dp"
+                android:text="Donner"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <!-- "Nothif" Text -->
+            <TextView
+                android:id="@+id/nothifText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="208dp"
+                android:layout_marginTop="38dp"
+                android:text="Nothif"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <!-- "Profil" Text -->
+            <TextView
+                android:id="@+id/profilText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="304dp"
+                android:layout_marginTop="38dp"
+                android:text="Profil"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

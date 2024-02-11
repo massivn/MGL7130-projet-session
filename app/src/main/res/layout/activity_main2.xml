@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Background Box -->
+    <FrameLayout
+        android:id="@+id/backgroundBox"
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Circle Shape -->
+        <ImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="700dp"
+            android:layout_height="700dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="-285dp"
+            android:layout_marginTop="-432dp"
+            android:background="@drawable/circle_background" />
+
+        <!-- Heart Icon -->
+        <ImageView
+            android:id="@+id/heartImageView"
+            android:layout_width="106dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="icon 'Heart'"
+            android:src="@drawable/iconheart" />
+
+        <!-- "Espoir" Text -->
+        <TextView
+            android:id="@+id/espoirTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="92dp"
+            android:fontFamily="sans-serif"
+            android:text="Espoir"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <!-- "Creer un compte" Text -->
+        <TextView
+            android:id="@+id/creerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="301dp"
+            android:fontFamily="sans-serif"
+            android:text="Creer un compte"
+            android:textColor="#11a9a0"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- Divider -->
+        <View
+            android:id="@+id/dividerView"
+            android:layout_width="85dp"
+            android:layout_height="1dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="274dp"
+            android:layout_marginTop="318dp"
+            android:background="#11a9a0" />
+
+        <!-- "Creer" Box -->
+        <FrameLayout
+            android:id="@+id/creerBox"
+            android:layout_width="158dp"
+            android:layout_height="61dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="692dp"
+            android:background="#11a9a0">
+
+            <!-- "Creer" Texts -->
+            <TextView
+                android:id="@+id/creerText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="43.31950378417969dp"
+                android:layout_marginTop="13dp"
+                android:fontFamily="sans-serif"
+                android:text="Creer"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <!-- Box for "Nom utilisateur" -->
+        <FrameLayout
+            android:id="@+id/nomUtilisateurBox"
+            android:layout_width="257dp"
+            android:layout_height="51dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="351dp"
+            android:background="@drawable/rounded_border">
+
+            <!-- "Nom utilisateur" Text -->
+            <TextView
+                android:id="@+id/nomUtilisateurText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="43.72198486328125dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="sans-serif"
+                android:text="Telephone"
+                android:textColor="#8A000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Box for "Email" -->
+        <FrameLayout
+            android:id="@+id/emailBox"
+            android:layout_width="257dp"
+            android:layout_height="51dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="431dp"
+            android:background="@drawable/rounded_border">
+
+            <!-- "Email" Text -->
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="53.31950378417969dp"
+                android:layout_marginTop="11dp"
+                android:fontFamily="sans-serif"
+                android:text="Adresse"
+                android:textColor="#8A000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Box for "Mot de passe" -->
+        <FrameLayout
+            android:id="@+id/motDePasseBox"
+            android:layout_width="257dp"
+            android:layout_height="51dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="511dp"
+            android:background="@drawable/rounded_border">
+
+            <!-- "Mot de passe" Text -->
+            <TextView
+                android:id="@+id/motDePasseText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="53.31950378417969dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="sans-serif"
+                android:text="Code Postale"
+                android:textColor="#8A000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Box for "Confirmer mot de passe" -->
+        <FrameLayout
+            android:id="@+id/confirmerMotDePasseBox"
+            android:layout_width="257dp"
+            android:layout_height="51dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="591dp"
+            android:background="@drawable/rounded_border">
+
+            <!-- "Confirmer mot de passe" Text -->
+            <TextView
+                android:id="@+id/confirmerMotDePasseText"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="53.31950378417969dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="sans-serif"
+                android:text="Groupe Singuin"
+                android:textColor="#8A000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
