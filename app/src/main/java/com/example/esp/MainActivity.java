@@ -1,7 +1,9 @@
 package com.example.esp;
-
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.util.Log;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -32,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // Appeler la méthode pour établir la connexion
+        Connection connection = DatabaseManager.connect();
+        // Utilisez Log.d() pour afficher un message de débogage
+        Log.d("MainActivity", "Message de débogage");
         nomutilisateurEditText = findViewById(R.id.nomUtilisateur1Text);
         emailEditText = findViewById(R.id.email1Text);
         motdepasseEditText = findViewById(R.id.motDePasse1Text);
