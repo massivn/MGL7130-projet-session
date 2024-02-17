@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Background Box -->
+    <!--Background Box -->
     <FrameLayout
         android:id="@+id/backgroundBox"
         android:layout_width="390dp"
@@ -53,7 +53,7 @@
 
         <!-- "Creer un compte" Text -->
         <TextView
-            android:id="@+id/creerTextView"
+            android:id="@+id/creer10TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|start"
@@ -86,24 +86,25 @@
             android:background="#11a9a0">
 
             <!-- "Creer" Texts -->
-            <TextView
+
+            <Button
                 android:id="@+id/creerText1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|start"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="13dp"
-                android:fontFamily="sans-serif"
+                android:layout_width="150dp"
+                android:layout_height="91dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#11a9a0"
                 android:text="Suivant"
-                android:textColor="#FFFFFF"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textSize="25sp">
+
+            </Button>
 
         </FrameLayout>
 
         <!-- Box for "Nom utilisateur" -->
         <FrameLayout
-            android:id="@+id/nomUtilisateurBox"
+            android:id="@+id/nomUtilisateur1Box"
             android:layout_width="257dp"
             android:layout_height="51dp"
             android:layout_gravity="top|start"
@@ -112,18 +113,16 @@
             android:background="@drawable/rounded_border">
 
             <!-- "Nom utilisateur" Text -->
-            <TextView
-                android:id="@+id/nomUtilisateurText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|start"
-                android:layout_marginStart="43.72198486328125dp"
-                android:layout_marginTop="14dp"
+
+            <EditText
+                android:id="@+id/nomUtilisateur1Text"
+                android:layout_width="302dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
                 android:fontFamily="sans-serif"
-                android:text="Nom utilisateur"
-                android:textColor="#8A000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:hint="Nom utilisateur"
+
+                />
         </FrameLayout>
 
         <!-- Box for "Email" -->
@@ -137,23 +136,22 @@
             android:background="@drawable/rounded_border">
 
             <!-- "Email" Text -->
-            <TextView
-                android:id="@+id/emailText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|start"
-                android:layout_marginStart="89.57676696777344dp"
-                android:layout_marginTop="11dp"
+
+
+            <EditText
+                android:id="@+id/email1Text"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
                 android:fontFamily="sans-serif"
-                android:text="Email"
-                android:textColor="#8A000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:hint="Email"
+
+                />
         </FrameLayout>
 
         <!-- Box for "Mot de passe" -->
         <FrameLayout
-            android:id="@+id/motDePasseBox"
+            android:id="@+id/motDePasse1Box"
             android:layout_width="257dp"
             android:layout_height="51dp"
             android:layout_gravity="top|start"
@@ -162,18 +160,18 @@
             android:background="@drawable/rounded_border">
 
             <!-- "Mot de passe" Text -->
-            <TextView
-                android:id="@+id/motDePasseText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|start"
-                android:layout_marginStart="53.31950378417969dp"
-                android:layout_marginTop="14dp"
+
+
+            <EditText
+                android:id="@+id/motDePasse1Text"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
                 android:fontFamily="sans-serif"
-                android:text="Mot de passe"
-                android:textColor="#8A000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:hint="Mot de passe"
+
+                />
+
         </FrameLayout>
 
         <!-- Box for "Confirmer mot de passe" -->
@@ -187,18 +185,15 @@
             android:background="@drawable/rounded_border">
 
             <!-- "Confirmer mot de passe" Text -->
-            <TextView
-                android:id="@+id/confirmerMotDePasseText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|start"
-                android:layout_marginStart="6.398345947265625dp"
-                android:layout_marginTop="14dp"
+            <EditText
+                android:id="@+id/confirmerMotDePasse1Text"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
                 android:fontFamily="sans-serif"
-                android:text="Confirmer mot de passe"
-                android:textColor="#8A000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:hint="Confirmer mot de passe"
+
+                />
         </FrameLayout>
 
     </FrameLayout>

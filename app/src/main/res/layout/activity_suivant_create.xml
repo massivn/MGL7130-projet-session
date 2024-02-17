@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SuivantCreate">
 
-    <!-- Background Box -->
-
-
-            <FrameLayout
-                android:id="@+id/backgroundBox"
-                android:layout_width="390dp"
-                android:layout_height="844dp"
-                android:background="#FFFFFF"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+    <FrameLayout
+        android:id="@+id/backgroundBox"
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <!-- Circle Shape -->
         <ImageView
@@ -41,7 +37,7 @@
 
         <!-- "Espoir" Text -->
         <TextView
-            android:id="@+id/espoirTextView"
+            android:id="@+id/espoir2TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|start"
@@ -55,7 +51,7 @@
 
         <!-- "Creer un compte" Text -->
         <TextView
-            android:id="@+id/creerTextView"
+            android:id="@+id/creer2TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|start"
@@ -79,7 +75,7 @@
 
         <!-- "Creer" Box -->
         <FrameLayout
-            android:id="@+id/creerBox"
+            android:id="@+id/creer2Box"
             android:layout_width="158dp"
             android:layout_height="61dp"
             android:layout_gravity="top|start"
@@ -91,7 +87,7 @@
 
 
             <Button
-                android:id="@+id/creerText1"
+                android:id="@+id/creer2Text1"
                 android:layout_width="150dp"
                 android:layout_height="91dp"
                 android:layout_gravity="center"
@@ -110,7 +106,7 @@
 
         <!-- Box for "Nom utilisateur" -->
         <FrameLayout
-            android:id="@+id/nomUtilisateurBox"
+            android:id="@+id/nomUtilisateur2Box"
             android:layout_width="257dp"
             android:layout_height="51dp"
             android:layout_gravity="top|start"
@@ -120,7 +116,7 @@
 
             <!-- "Nom utilisateur" Text -->
             <EditText
-                android:id="@+id/nomUtilisateurText"
+                android:id="@+id/nomUtilisateur2Text"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
@@ -132,7 +128,7 @@
 
         <!-- Box for "Email" -->
         <FrameLayout
-            android:id="@+id/emailBox"
+            android:id="@+id/email2Box"
             android:layout_width="257dp"
             android:layout_height="51dp"
             android:layout_gravity="top|start"
@@ -154,7 +150,7 @@
 
         <!-- Box for "Mot de passe" -->
         <FrameLayout
-            android:id="@+id/motDePasseBox"
+            android:id="@+id/motDePasse2Box"
             android:layout_width="257dp"
             android:layout_height="51dp"
             android:layout_gravity="top|start"
@@ -166,7 +162,7 @@
 
 
             <EditText
-                android:id="@+id/motDePasseText"
+                android:id="@+id/motDePasse2Text"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
@@ -178,7 +174,7 @@
 
         <!-- Box for "Confirmer mot de passe" -->
         <FrameLayout
-            android:id="@+id/confirmerMotDePasseBox"
+            android:id="@+id/confirmerMotDePasse2Box"
             android:layout_width="257dp"
             android:layout_height="51dp"
             android:layout_gravity="top|start"
@@ -190,7 +186,7 @@
 
 
             <EditText
-                android:id="@+id/confirmerMotDePasseText"
+                android:id="@+id/confirmerMotDePasse2Text"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
@@ -214,6 +210,10 @@
 
         </TextView>
     </FrameLayout>
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
