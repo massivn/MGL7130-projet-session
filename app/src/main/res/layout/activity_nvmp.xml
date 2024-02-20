@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nvmp">
+
+    <FrameLayout
+        android:id="@+id/backgroundBox"
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Circle Shape -->
+        <ImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="700dp"
+            android:layout_height="700dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="-285dp"
+            android:layout_marginTop="-432dp"
+            android:background="@drawable/circle_background" />
+
+        <!-- Heart Icon -->
+        <ImageView
+            android:id="@+id/heartImageView"
+            android:layout_width="106dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="icon 'Heart'"
+            android:src="@drawable/iconheart" />
+
+        <!-- "Espoir" Text -->
+        <TextView
+            android:id="@+id/espoirTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="92dp"
+            android:fontFamily="sans-serif"
+            android:text="Espoir"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+
+
+        <!-- "Creer" Boxes -->
+        <FrameLayout
+            android:id="@+id/nomUtilisateurBox"
+            android:layout_width="299dp"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="451dp">
+
+            <!-- Background -->
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_border" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/motDePasseBox"
+            android:layout_width="299dp"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="562dp">
+
+            <!-- Background -->
+            <View
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_border" />
+
+        </FrameLayout>
+
+
+
+
+
+        <!-- "Connecter" Box -->
+        <FrameLayout
+            android:id="@+id/connecterBox"
+            android:layout_width="158dp"
+            android:layout_height="56dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="197dp"
+            android:layout_marginTop="663dp"
+            android:background="#11a9a0">
+
+
+
+            <!-- "Connecter" Text -->
+
+            <Button
+                android:id="@+id/resetPasswordButton"
+                android:layout_width="150dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#11a9a0"
+                android:text="Reinitialiser"
+                android:textSize="18sp"
+                >
+
+            </Button>
+        </FrameLayout>
+
+        <!-- "Nom utilisateur" Text -->
+        <EditText
+            android:id="@+id/pinEditText"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="450dp"
+            android:hint="Entrez le code PIN"
+            android:textColor="#8A000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="@null"
+
+            />
+        <!-- "Mot de passe" Text -->
+        <EditText
+            android:id="@+id/newPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="570dp"
+            android:hint="le nouveau mot de passe"
+            android:textColor="#8A000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="@null"
+
+            />
+
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
